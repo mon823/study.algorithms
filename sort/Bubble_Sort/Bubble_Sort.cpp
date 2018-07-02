@@ -10,7 +10,6 @@ int main(void) {
 	for (int i = 0; i < n; i++)
 		scanf("%d", &arr[i]);
 
-
 	for (int i = 0; i < n; i++) {
 		flag = false;
 		for (int j = 1; j < n - i; j++) {
@@ -23,8 +22,6 @@ int main(void) {
 		}
 		if (flag == false) break;
 	}
-
 	for (int i = 0; i<n; i++)
 		printf("%d\n", arr[i]);
-
 }
